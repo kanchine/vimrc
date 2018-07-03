@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Syntastic'
 Plugin 'scrooloose/nerdcommenter'
 " Plugin 'dracula/vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -35,11 +36,11 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-let g:airline_theme='deus'
-let g:airline_left_sep='>'
+let g:airline_theme='luna'
 let g:airline_detect_spell=1
 let g:airline_powerline_fonts = 1
-" let g:airline_left_sep = '▶'
+let g:airline_left_sep = "\uE0B0"
+let g:airling_right_sep = "\uE0B2"
 
 " Syntastic configs
 set statusline+=%#warningmsg#
