@@ -103,6 +103,9 @@ let g:NERDToggleCheckAllLines = 1
 " Enable powerline fonts
 let g:airline_powerline_fonts = 1
 
+" Airline theme
+let g:airline_theme='bubblegum'
+
 " ctrlp configurations
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
