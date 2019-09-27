@@ -99,3 +99,18 @@ let g:NERDTrimTrailingWhitespace = 1
 
 " Enable NERDCommenterToggle to check all selected lines is commented or not
 let g:NERDToggleCheckAllLines = 1
+
+" Enable powerline fonts
+let g:airline_powerline_fonts = 1
+
+" ctrlp configurations
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+
+let g:ctrlp_user_command = 'find %s -type f'
+
+" Python syntax hightlighting
+let python_highlight_all = 1
